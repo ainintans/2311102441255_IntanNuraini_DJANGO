@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+
+    <!-- Material Kit CSS -->
+    <link rel="stylesheet" href="{% static 'halaman depan/Material/assets/css/material-kit-pro.min.css' %}">
+    <link rel="stylesheet" href="{% static 'halaman depan/Material/assets/css/nucleo-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'halaman depan/Material/assets/css/nucleo-svg.css' %}">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center text-primary">INI ADALAH HALAMAN HOME</h1>
+        <button class="btn btn-primary">Tombol Material</button>
+    </div>
+
+    <!-- Optional: JS Material Kit (jika perlu) -->
+    <script src="{% static 'halaman depan/Material/assets/js/material-kit-pro.min.js' %}"></script>
+</body>
+</html>
