@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Drama  
+from .models import Drakor 
 
-admin.site.register(Drama)
+admin.site.register(Drakor)

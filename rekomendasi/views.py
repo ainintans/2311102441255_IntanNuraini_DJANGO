@@ -1,10 +1,9 @@
-from django.shortcuts import render, get_object_or_404
-from .models import Drama
+from django.shortcuts import render
+from .models import Drakor
 
 def home(request):
-    dramas = Drama.objects.all()
-    return render(request, 'home.html', {'dramas': dramas})
+    return render(request, 'rekomendasi/home.html')
 
-def drama_detail(request, drama_id):
-    drama = get_object_or_404(Drama, id=drama_id)
-    return render(request, 'drama_detail.html', {'drama': drama})
+def daftar_drakor(request):
+    semua_drakor = Drakor.objects.all()
+    return render(request, 'rekomendasi/daftar_drakor.html', {'drakor_list': semua_drakor})
