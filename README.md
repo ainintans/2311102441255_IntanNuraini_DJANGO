@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Hi saya Intan Nuraini.
+# Hi saya Intan Nuraini. ⭐
 Dalam project ini saya sedang melakukan instalasi Django. Saya baru mempelajari hal ini, jadi mohon bantuan nya dalam belajar ya! 
 ## Website ini akan memberikan rekomendasi:
 - Kdrama
